@@ -71,7 +71,7 @@ class Owner
   end
 
   def list_pets
-    puts "hi"
+    return "hi"
   end
 
   def say_species
