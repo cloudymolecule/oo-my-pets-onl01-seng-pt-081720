@@ -71,7 +71,7 @@ class Owner
   end
 
   def list_pets
-    puts "I have #{self.dogs.count} dog(s), and #{self.cats.count} cat(s)."
+    puts "I have #{Cat.all} dog(s), and #{self.cats.count} cat(s)."
   end
 
   def say_species
