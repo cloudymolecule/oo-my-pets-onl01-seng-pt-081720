@@ -69,14 +69,10 @@ class Owner
       cat.owner = nil
     end
   end
-  # def sell_pets
-  #   sad_cats = self.cats
-  #   sad_dogs = self.dogs
-  #   [sad_cats, sad_dogs].each do |sad|
-  #     binding.pry
-  #     sad.mood = "nervous"
-  #   end
-  # end
+
+  def list_pets
+    puts "I have #{dogs.count} dog(s), and #{cats.count} cat(s)."
+  end
 
   def say_species
      spe = "I am a #{self.species}."
